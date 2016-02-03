@@ -1,0 +1,17 @@
+{
+  "name": "wax_wane",
+  "version": "1.0.0",
+  "description": "Brandon Webber's Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "node-sass assets/scss/app.scss --output assets/css --watch assets/scss",
+    "server": "node server.js",
+    "start": "npm run sass-watch & npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "node-sass": "^3.4.2"
+  }
+}

@@ -1,0 +1,10 @@
+.abilities-container {
+  @include clearfix;
+
+  margin-bottom: 20px;
+}
+
+.abilities {
+  float: left;
+  width: 40%;
+}

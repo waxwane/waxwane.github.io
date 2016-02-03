@@ -1,0 +1,46 @@
+@import 'abilities';
+@import 'address';
+@import 'availability';
+@import 'copyright';
+@import 'phone_email_social';
+@import 'main';
+
+// .side-column {
+//   margin: 0;
+//   // margin-right: 4%;
+//   float: right;
+// }
+//
+// .main-column {
+//   float: right;
+// }
+
+
+
+.wordmark {
+  margin-bottom: 115px;
+  margin-top: 70px;
+}
+
+.intro-heading,
+.main-column-heading {
+  font-family: $gt-walsheim-pro;
+  font-size: 3rem;
+  line-height: 1.35;
+}
+
+.green {
+  color: $green;
+}
+
+.orange {
+  color: $orange;
+}
+
+.red {
+  color: $red;
+}
+
+.content {
+  margin-top: 115px;
+}
